@@ -11,3 +11,66 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: forestgreen;
+}
+.container{
+  max-width: 900px;
+  margin: 50px auto;
+
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orange;
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+.add-container{
+  display: flex;
+  gap: 30px;
+}
+.add-container input{
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 1px solid forestgreen;
+  font-size: 16px;
+}
+
+.add-container button{
+  padding: 5px 25px;
+  background-color: forestgreen;
+  border-radius: 8px;
+  border: 1px solid forestgreen;
+  font-size: 16px;
+  color:#fff;
+  cursor: pointer;
+}
+.todo-container{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.todo-container button{
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid ;
+  background-color: forestgreen ;
+  cursor: pointer;
+  border: none;
+  color: white;
+}
+button svg{
+  fill: rgb(238, 238, 238);
+  width: 30px;
+}
